@@ -145,7 +145,7 @@ window.onload = function () {
 		itemclick: toggleDataSeries
 	},
 	data: [{
-		type: "line",
+		type: "spline",
 		name: "PIU33",
 		color: "#C24642",
 		showInLegend: true,
@@ -168,7 +168,7 @@ window.onload = function () {
     ]
 	},
 	{
-		type: "line",
+		type: "spline",
 		name: "S&P500",
 		color: "#369EAD",
 		axisYIndex: 1,
@@ -191,7 +191,7 @@ window.onload = function () {
     ]
 	},
 	{
-		type: "line",
+		type: "spline",
 		name: "VIX",
 		color: "#7F6084",
     axisYIndex: 2,
