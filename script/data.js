@@ -98,7 +98,9 @@ window.onload = function () {
 	var chart = new CanvasJS.Chart("chartContainer", {
 	title:{
 		text: "Monitoraggio PIU33 vs S&P500 and VIX",
-    margin: 100
+    margin: 50,
+    fontSize:60
+    
 	},
 	axisY:[{
 		title: "PIU33",
