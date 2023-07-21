@@ -106,6 +106,9 @@ window.onload = function () {
 		tickColor: "#C24642",
 		labelFontColor: "#C24642",
 		titleFontColor: "#C24642",
+    titleFontSize:30,
+    labelFontSize:30,
+    interval:3000,
 		includeZero: true,
 		suffix: ""
 	},
@@ -115,6 +118,9 @@ window.onload = function () {
 		tickColor: "#369EAD",
 		labelFontColor: "#369EAD",
 		titleFontColor: "#369EAD",
+    titleFontSize:30,
+    labelFontSize:30,
+    interval:50,
 		includeZero: false,
 		suffix: ""
 	}],
@@ -124,6 +130,9 @@ window.onload = function () {
 		tickColor: "#7F6084",
 		labelFontColor: "#7F6084",
 		titleFontColor: "#7F6084",
+    titleFontSize:30,
+    labelFontSize:30,
+    interval:1,
 		includeZero: false,
 		prefix: "",
 		suffix: ""
