@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html lang="it">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script src="script/data.js"></script>
     <head> 
-        <title>Più33 Monitoraggio</title>
+        <title>PIU33 Monitoraggio</title>
         <link rel="stylesheet" href="styles/home.css">
     </head>
 
 <body>
     <div class="head">
         <img class="header-image" src="/../images/header.png">
-        <p class="header-text"> Più33 Monitoraggio</p>
+        <p class="header-text"> PIU33 Monitoraggio</p>
     </div>
+
+    <div class= "grafico">
+    <canvas id="myChart" style="width:100%;max-width:700px;position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);margin-top: 200px;"></canvas>
+    </div>
+
 
     
 

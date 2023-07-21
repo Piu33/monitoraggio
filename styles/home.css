@@ -22,143 +22,27 @@
   font-size: 3rem;
 }
 
-.grid-table {
-  display: grid;
-  column-gap: 16px;
-  row-gap: 40px;
-  margin-left: 30px;
-  margin-right: 60px;
-  grid-template-columns: 1fr  ;
-  margin-bottom: 100px;
-
+.cointaner{
+  position: relative;
 }
 
 
-
-
-.grid-element {
-  display: grid;
-  column-gap: 16px;
-  row-gap: 40px;
-  margin-left: 30px;
-  margin-top: 80px;
-  grid-template-columns: 1fr 1fr ;
-  width: 90%;
-  height:85%;
-  justify-items: center;
-  align-items: center;
-
-}
-
-.image-grid {
-  object-fit:contain;
-  width: 90%;
-  height: 90%;
-  border-radius: 0.5em;
-  box-shadow: 0 7px 14px rgba(106, 102, 102, 0.25), 0 5px 5px ;
-  
-  
-  
-}
-
-
-
-.image-desc{
-  font-family: 'Nunito';
-  text-align: justify;
-  font-size: 1.5vw;
-  padding: 25px; 
-  line-height: 2em;
-}
-
-.image-title{
-  font-family: 'Nunito';
-  text-align: center;
-  font-size: 1.7vw;
-  padding: 25px; 
-}
-
-.progress{
-  height: 10em;
-  position: relative; 
-  margin-top: 40px;
-}
-
-.progress a{
-  all: unset;
-}
-
-.progress a:hover{
-  cursor: pointer;
-}
-
-.progress p {
-  margin: 0;
-
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%); 
-  text-align: center;
-  font-size: 2vw;
-}
-
-.mail-image{
-  width: 10%;
-}
 
 
 @media only screen and (min-width : 320px) {
-  .grid-element {
-    grid-template-columns: 1fr  ;
-  }
-  .grid-table {
-    grid-template-columns: 1fr ;
-  }
 
-  .image-desc{
-    font-size: 3vw;
-  }
-  .image-title{
-    font-size: 5vw;
-  }
   
 }
 
 @media only screen and (min-width : 480px) {
-  .grid-element {
-    grid-template-columns: 1fr;
-  }
-  .grid-table {
-    grid-template-columns: 1fr;
-  }
-
-  .image-desc{
-    font-size: 3vw;
-  }
-  .image-title{
-    font-size: 5vw;
-  }
+ 
 
   
 }
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-  .grid-element {
-    grid-template-columns: 1fr;
-  }
-  .grid-table {
-    grid-template-columns: 1fr;
-  }
 
-  .image-desc{
-    font-size: 3vw;
-  }
-  .image-title{
-    font-size: 5vw;
-  }
 
   
 }
