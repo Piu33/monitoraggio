@@ -6,6 +6,7 @@
     <head> 
         <title>PIU33 Monitoraggio</title>
         <link rel="stylesheet" href="styles/home.css">
+        <link rel="stylesheet" href="styles/table.css">
     </head>
 
 <body>
@@ -13,15 +14,50 @@
         <img class="header-image" src="images/header.png">
         <p class="header-text"> PIU33 </p>
     </div>
-    <!-- <div class= "grafico"> -->
-        <!-- <canvas id="speedChart" style="width:100%;max-width:900px;position: relative;
-            top: 60%;
-            left: 50%;
-            transform: translate(-50%, -50%);">
-        </canvas> -->
-        <div id="chartContainer" style="width:80%;height: 800px; display: block;
-        margin: 0 auto; margin-top: 100px; margin-bottom: 100px;"></div>
-    <!-- </div> -->
+
+    <table>
+        <thead>
+          <tr>
+            <th>DATA </th>
+            <th>STRUMENTO FINANZIARIO </th>
+            <th>OPERAZIONE</th>
+            <th>QUANTITÀ</th>
+            <th>PREZZO</th>
+            <th>VALUTA</th>
+            <th>N. FUTURES</th>
+            <th>N. OPZIONI</th>
+
+          </tr>
+        <thead>
+        <tbody>
+          <tr>
+            <td>20.06.23</td>
+            <td> /</td>
+            <td>/</td>
+            <td>/</td>
+            <td>/</td>
+            <td>/</td>
+            <td>66</td>
+            <td>80</td>
+          </tr>
+          <td>22.06.23</td>
+          <td> MINISP500 Set.23</td>
+          <td style="color: blue">BOT</td>
+          <td>4</td>
+          <td>4411.75</td>
+          <td>USD</td>
+          <td>70</td>
+          <td>80</td>
+        </tr>
+        
+        </tbody>
+    </table>
+    
+    <div id="chartContainer" 
+        style="width:80%;height: 800px; display: block;
+        margin: 0 auto; margin-top: 100px; margin-bottom: 100px;">
+    </div>
+  
 
     
     
