@@ -1,96 +1,3 @@
-// function norm (array){
-//   var i;
-//   var max = Number.MIN_VALUE;
-//   var min = Number.MAX_VALUE;
-//   for (i = 0; i < array.length; i++) {
-//     if(array[i]>max) {
-//         max = array[i];
-//     }
-//   }
-
-//   for (i = 0; i < array.length; i++){
-//     if(array[i]<min) {
-//         min = array[i];
-//     }
-//   }
-
-//   // if ((Math.abs(max) > Math.abs(min) )&& (max || min < 0 )){
-//   //   min = max * - 1
-//   // }else{
-//   //   max = min * - 1
-//   // }
-
-//   for (i = 0; i < array.length; i++) {
-//     var norm = (2 * (array[i] - min) / (max - min))-1;
-//     array[i] = norm;
-//   }
-//   return array;
-// }
-// // -2 ((x - min) / max - min)  -1
-
-// Math.abs()
-
-
-
-// window.onload = function(){
-
-// var speedCanvas = document.getElementById("speedChart");
-
-// Chart.defaults.global.defaultFontFamily = "Lato";
-// Chart.defaults.global.defaultFontSize = 18;
-
-// var data33 = [-145, -10688, -13442, -25537, -10002, 3679, -6762, 454, 4927, 5649, 2621, -5982, -89, -6906]
-// var datasp = [ 4425.50, 4411.75,4396.00,4421.25,4478.75,4434.00,4472.25,4432.75,4507.75,4533.50,4551.75,4576.25,4604.50,4579.00 ]
-
-// var dataFirst = {
-//     label: "PIU33 Performance",
-//     data: data33,
-//     lineTension: 0,
-//     fill: false,
-//     borderColor: 'red',
-//     yAxisID: 'y-axis-1',
-//   };
-
-// var dataSecond = {
-//     label: "S&P500",
-//     data: datasp,
-//     lineTension: 0,
-//     fill: false,
-//     borderColor: 'blue',
-//     yAxisID: 'y-axis-2',
-//   };
-
-// var speedData = {
-//   labels: ["20.06.23","22.06.23","23.06.23","28.06.23 ","30.06.23","06.07.23","07.07.23","10.07.23 ","12.07.23 ","13.07.23","17.07.23","18.07.23","19.07.23","20.07.23"],
-//   datasets: [dataFirst, dataSecond]
-// };
-
-// var chartOptions = {
-//   legend: {
-//     display: true,
-//     position: 'top',
-//     labels: {
-//       boxWidth: 80,
-//       fontColor: 'black'
-//     }
-//   },
-//   yAxes: [{
-//     id: 'y-axis-1',                             
-//     type: 'linear',
-//     position: 'left',
-//   }, {
-//     id: 'y-axis-2',                             
-//     type: 'linear',
-//     position: 'right',
-//   }]
-// };
-
-// var lineChart = new Chart(speedCanvas, {
-//   type: 'line',
-//   data: speedData,
-//   options: chartOptions
-// });
-//}
 
 
 
@@ -99,7 +6,9 @@ window.onload = function () {
 	title:{
 		text: "Monitoraggio PIU33 vs S&P500 and VIX",
     margin: 50,
-    fontSize:60
+    fontSize:60,
+    fontFamily: "tahoma",
+    color: "black"
     
 	},
 	axisY:[{
