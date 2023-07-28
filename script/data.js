@@ -56,7 +56,7 @@ window.onload = function () {
 		itemclick: toggleDataSeries
 	},
 	data: [{
-		type: "spline",
+		type: "line",
 		name: "PIU33",
 		color: "#64a102",
 		showInLegend: true,
@@ -76,11 +76,12 @@ window.onload = function () {
 			{ x: new Date(2023, 6, 17), y: 2621 },
 			{ x: new Date(2023, 6, 18), y: -5982 },
       { x: new Date(2023, 6, 19), y: -89 },
-      { x: new Date(2023, 6, 20), y: -6906 }
+      { x: new Date(2023, 6, 20), y: -6906 },
+      { x: new Date(2023, 6, 27), y: -59959 }
     ]
 	},
 	{
-		type: "spline",
+		type: "line",
 		name: "S&P500",
 		color: "#141414",
 		axisYIndex: 1,
@@ -100,11 +101,12 @@ window.onload = function () {
 			{ x: new Date(2023, 6, 17), y: 4551.75},
 			{ x: new Date(2023, 6, 18), y: 4576.25 },
       { x: new Date(2023, 6, 19), y: 4604.50},
-      { x: new Date(2023, 6, 20), y: 4579.00}
+      { x: new Date(2023, 6, 20), y: 4579.00},
+      { x: new Date(2023, 6, 27), y:  4615.50 }
     ]
 	},
 	{
-		type: "spline",
+		type: "line",
 		name: "VIX",
 		color: "#f50505",
     axisYIndex: 2,
@@ -125,7 +127,8 @@ window.onload = function () {
 			{ x: new Date(2023, 6, 17), y: 15.58},
 			{ x: new Date(2023, 6, 18), y: 15.63 },
       { x: new Date(2023, 6, 19), y: 15.63},
-      { x: new Date(2023, 6, 20), y: 15.78}	
+      { x: new Date(2023, 6, 20), y: 15.78},	
+      { x: new Date(2023, 6, 27), y: 14.63}	
 		]
 	}]
 });
