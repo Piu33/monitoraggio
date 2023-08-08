@@ -63,9 +63,9 @@ window.onload = function () {
 		axisYIndex: 0,
     lineThickness: 5,
 		dataPoints: [
-			{ x: new Date(2023, 7, 31), y: -141 },
-			{ x: new Date(2023, 8, 2), y: 5284 },
-			{ x: new Date(2023, 8, 8), y: 9585 }
+			{ x: new Date(2023, 6, 31), y: -141 },
+			{ x: new Date(2023, 7, 2), y: 5284 },
+			{ x: new Date(2023, 7, 8), y: 9585 }
 
     ]
 	},
@@ -77,9 +77,9 @@ window.onload = function () {
 		showInLegend: true,
     lineThickness: 5,
 		dataPoints: [
-			{ x: new Date(2023, 7, 31), y:  4609.80 },
-			{ x: new Date(2023, 8, 2), y:   4544.00  },
-			{ x: new Date(2023, 8, 8), y:    4487.75   }
+			{ x: new Date(2023, 6, 31), y:  4609.80 },
+			{ x: new Date(2023, 7, 2), y:   4544.00  },
+			{ x: new Date(2023, 7, 8), y:    4487.75   }
     ]
 	},
 	{
@@ -91,9 +91,9 @@ window.onload = function () {
 		showInLegend: true,
     lineThickness: 5,
 		dataPoints: [
-      { x: new Date(2023, 7, 31), y:  14.45 },
-			{ x: new Date(2023, 8, 2), y:   17.13  },
-			{ x: new Date(2023, 8, 8), y:    18.33   }
+      { x: new Date(2023, 6, 31), y:  14.45 },
+			{ x: new Date(2023, 7, 2), y:   17.13  },
+			{ x: new Date(2023, 7, 8), y:    18.33   }
 		
 
 		]
