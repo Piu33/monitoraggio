@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="it">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script src="https://cdn.canvasjs.com/canvasjs.min.js"></script>
+    <script src="script/data.js"></script>
+    <head> 
+        <title>PIU33 Monitoraggio</title>
+        <link rel="stylesheet" href="styles/home.css">
+        <link rel="stylesheet" href="styles/table.css">
+    </head>
+
+<body>
+    <div class="head">
+        <img class="header-image" src="images/header.png">
+        <p class="header-text"> PIU33 </p>
+    </div>
+
+    <p class="titolo_op" >Operatività Strategia</p>
+
+    <table>
+        <thead>
+        <tr>
+            <th>DATA </th>
+            <th>STRUMENTO FINANZIARIO </th>
+            <th>OPERAZIONE</th>
+            <th>QUANTITÀ</th>
+            <th>PREZZO</th>
+            <th>VALUTA</th>
+            <th>N. FUTURES</th>
+            <th>N. OPZIONI</th>
+        </tr>
+        <thead>
+        <tbody>
+        <tr>
+            <td>20.06.23</td>
+            <td> /</td>
+            <td>/</td>
+            <td>/</td>
+            <td>/</td>
+            <td>/</td>
+            <td>66</td>
+            <td>80</td>
+        </tr>
+        <tr>
+            <td>22.06.23</td>
+            <td> MINISP500 Set.23</td>
+            <td style="color: blue">BOT</td>
+            <td>4</td>
+            <td>4411.75</td>
+            <td>USD</td>
+            <td>70</td>
+            <td>80</td>
+        </tr>
+        <tr>
+            <td>23.06.23</td>
+            <td> MINISP500 Set.23</td>
+            <td style="color: blue">BOT</td>
+            <td>3</td>
+            <td>4396</td>
+            <td>USD</td>
+            <td>73</td>
+            <td>80</td>
+        </tr>
+        <tr>
+            <td>23.06.23</td>
+            <td> MINISP500 Set.23</td>
+            <td style="color: red">SOLD</td>
+            <td>2</td>
+            <td>4421.25</td>
+            <td>USD</td>
+            <td>71</td>
+            <td>80</td>
+        </tr>
+        <tr>
+            <td>28.06.23</td>
+            <td> MINISP500 Set.23</td>
+            <td style="color: red">SOLD</td>
+            <td>7</td>
+            <td>4478.75</td>
+            <td>USD</td>
+            <td>64</td>
+            <td>80</td>
+        </tr>
+        <tr>
+            <td>30.06.23</td>
+            <td> MINISP500 Set.23</td>
+            <td style="color: red">SOLD</td>
+            <td>7</td>
+            <td>4478.75</td>
+            <td>USD</td>
+            <td>64</td>
+            <td>80</td>
+        </tr>
+        <tr>
+            <td>06.07.23</td>
+            <td> MINISP500 Set.23</td>
+            <td style="color: blue">BOT</td>
+            <td>6</td>
+            <td>4434</td>
+            <td>USD</td>
+            <td>70</td>
+            <td>80</td>
+        </tr>
+        <tr>
+            <td>07.07.23</td>
+            <td> MINISP500 Set.23</td>
+            <td style="color: red">SOLD</td>
+            <td>5</td>
+            <td>4472.25</td>
+            <td>USD</td>
+            <td>65</td>
+            <td>80</td>
+        </tr>
+        <tr>
+            <td>10.07.23</td>
+            <td> MINISP500 Set.23</td>
+            <td style="color: blue">BOT</td>
+            <td>6</td>
+            <td>4432.75</td>
+            <td>USD</td>
+            <td>71</td>
+            <td>80</td>
+        </tr>
+        <tr>
+            <td>12.07.23</td>
+            <td> MINISP500 Set.23</td>
+            <td style="color: red">SOLD</td>
+            <td>12</td>
+            <td>4507.75</td>
+            <td>USD</td>
+            <td>59</td>
+            <td>80</td>
+        </tr>
+        <tr>
+            <td>12.07.23</td>
+            <td> MINISP500 Set.23</td>
+            <td style="color: red">SOLD</td>
+            <td>6</td>
+            <td>4433.50</td>
+            <td>USD</td>
+            <td>53</td>
+            <td>80</td>
+        </tr>
+        <tr>
+            <td>17.07.23</td>
+            <td> MINISP500 Set.23</td>
+            <td style="color: red">SOLD</td>
+            <td>5</td>
+            <td>4551.75</td>
+            <td>USD</td>
+            <td>48</td>
+            <td>80</td>
+        </tr>
+        <tr>
+            <td>18.07.23</td>
+            <td> MINISP500 Set.23</td>
+            <td style="color: red">SOLD</td>
+            <td>7</td>
+            <td>4576.25</td>
+            <td>USD</td>
+            <td>41</td>
+            <td>80</td>
+        </tr>
+        <tr>
+            <td>19.07.23</td>
+            <td> MINISP500 Set.23</td>
+            <td style="color: red">SOLD</td>
+            <td>9</td>
+            <td>4604.5</td>
+            <td>USD</td>
+            <td>32</td>
+            <td>80</td>
+        </tr>
+        <tr>
+            <td>20.07.23</td>
+            <td> MINISP500 Set.23</td>
+            <td style="color: blue">BOT</td>
+            <td>8</td>
+            <td>4579</td>
+            <td>USD</td>
+            <td>40</td>
+            <td>80</td>
+        </tr>
+        <tr>
+            <td>27.07.23</td>
+            <td> MINISP500 Set.23</td>
+            <td style="color: red">SOLD</td>
+            <td>24</td>
+            <td>4615.5</td>
+            <td>USD</td>
+            <td>16</td>
+            <td>80</td>
+        </tr>
+        <tr>
+            <td>31.07.23</td>
+            <td> MINISP500 Set.23</td>
+            <td style="color: red">SOLD</td>
+            <td>16</td>
+            <td>4608.625</td>
+            <td>USD</td>
+            <td>0</td>
+            <td>80</td>
+        </tr>
+        
+        </tbody>
+    </table>
+    
+    <div id="chartContainer" 
+        style="width:80%;height: 800px; display: block;
+        margin: 0 auto; margin-top: 100px; margin-bottom: 100px;">
+    </div>
+  
+
+    
+    
+
+</body>
+
+
+</html>

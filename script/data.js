@@ -19,7 +19,7 @@ window.onload = function () {
 		titleFontColor: "#64a102",
     titleFontSize:30,
     labelFontSize:30,
-    interval:3000,
+    interval:2000,
 		includeZero: true,
 		suffix: ""
 	},
@@ -63,21 +63,10 @@ window.onload = function () {
 		axisYIndex: 0,
     lineThickness: 5,
 		dataPoints: [
-			{ x: new Date(2023, 5, 20), y: -145 }, 
-			{ x: new Date(2023, 5, 22), y: -10688 },
-			{ x: new Date(2023, 5, 23), y: -13442 },
-			{ x: new Date(2023, 5, 28), y: -25537 },
-			{ x: new Date(2023, 5, 30), y: -10002 },
-			{ x: new Date(2023, 6, 6), y: 3679 },
-			{ x: new Date(2023, 6, 7), y: -6762 },
-			{ x: new Date(2023, 6, 10), y: 454 },
-			{ x: new Date(2023, 6, 12), y: 4927 },
-			{ x: new Date(2023, 6, 13), y: 5649 },
-			{ x: new Date(2023, 6, 17), y: 2621 },
-			{ x: new Date(2023, 6, 18), y: -5982 },
-      { x: new Date(2023, 6, 19), y: -89 },
-      { x: new Date(2023, 6, 20), y: -6906 },
-      { x: new Date(2023, 6, 27), y: -59959 }
+			{ x: new Date(2023, 7, 31), y: -141 },
+			{ x: new Date(2023, 8, 2), y: 5284 },
+			{ x: new Date(2023, 8, 8), y: 9585 }
+
     ]
 	},
 	{
@@ -88,21 +77,9 @@ window.onload = function () {
 		showInLegend: true,
     lineThickness: 5,
 		dataPoints: [
-			{ x: new Date(2023, 5, 20), y: 4425.50},
-			{ x: new Date(2023, 5, 22), y: 4411.75},
-			{ x: new Date(2023, 5, 23), y: 4396.00 },
-			{ x: new Date(2023, 5, 28), y: 4421.25 },
-			{ x: new Date(2023, 5, 30), y: 4478.75 },
-			{ x: new Date(2023, 6, 6), y: 4434.00 },
-			{ x: new Date(2023, 6, 7), y: 4472.25 },
-			{ x: new Date(2023, 6, 10), y: 4432.75 },
-			{ x: new Date(2023, 6, 12), y: 4507.75},
-			{ x: new Date(2023, 6, 13), y: 4533.50 },
-			{ x: new Date(2023, 6, 17), y: 4551.75},
-			{ x: new Date(2023, 6, 18), y: 4576.25 },
-      { x: new Date(2023, 6, 19), y: 4604.50},
-      { x: new Date(2023, 6, 20), y: 4579.00},
-      { x: new Date(2023, 6, 27), y:  4615.50 }
+			{ x: new Date(2023, 7, 31), y:  4609.80 },
+			{ x: new Date(2023, 8, 2), y:   4544.00  },
+			{ x: new Date(2023, 8, 8), y:    4487.75   }
     ]
 	},
 	{
@@ -114,21 +91,11 @@ window.onload = function () {
 		showInLegend: true,
     lineThickness: 5,
 		dataPoints: [
-      { x: new Date(2023, 5, 20), y: 16},
-			{ x: new Date(2023, 5, 22), y: 16.23},
-			{ x: new Date(2023, 5, 23), y: 15.93 },
-			{ x: new Date(2023, 5, 28), y: 15.33 },
-			{ x: new Date(2023, 5, 30), y: 14.93 },
-			{ x: new Date(2023, 6, 6), y: 17.28 },
-			{ x: new Date(2023, 6, 7), y: 15.63 },
-			{ x: new Date(2023, 6, 10), y: 15.93 },
-			{ x: new Date(2023, 6, 12), y: 14.38},
-			{ x: new Date(2023, 6, 13), y: 14.13 },
-			{ x: new Date(2023, 6, 17), y: 15.58},
-			{ x: new Date(2023, 6, 18), y: 15.63 },
-      { x: new Date(2023, 6, 19), y: 15.63},
-      { x: new Date(2023, 6, 20), y: 15.78},	
-      { x: new Date(2023, 6, 27), y: 14.63}	
+      { x: new Date(2023, 7, 31), y:  14.45 },
+			{ x: new Date(2023, 8, 2), y:   17.13  },
+			{ x: new Date(2023, 8, 8), y:    18.33   }
+		
+
 		]
 	}]
 });
