@@ -106,7 +106,7 @@ window.onload = function () {
 			{ x: new Date(2024, 0, 3), y:  86182 },
 			{ x: new Date(2024, 0, 10), y:  77269 },
 			{ x: new Date(2024, 0, 17), y:  76831 },
-			{ x: new Date(2024, 0, 18), y:  109214}
+			{ x: new Date(2024, 0, 18), y: 79214}
 
 
 
