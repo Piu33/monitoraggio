@@ -6,7 +6,7 @@ window.onload = function () {
 	title:{
 		text: "Monitoraggio PIU33 vs S&P500 and VIX",
     margin: 50,
-    fontSize:60,
+    fontSize:50,
     fontFamily: "tahoma",
     color: "black"
     
@@ -120,7 +120,9 @@ window.onload = function () {
 			{ x: new Date(2024, 1, 15), y: 118549},
 			{ x: new Date(2024, 1, 20), y: 114710},
 			{ x: new Date(2024, 1, 22), y: 134552},
-			{ x: new Date(2024, 1, 23), y: 141241}
+			{ x: new Date(2024, 1, 23), y: 141241},
+			{ x: new Date(2024, 2, 4), y: 136678}
+
 
 
 			
@@ -206,7 +208,8 @@ window.onload = function () {
 			{ x: new Date(2024, 1, 15), y:    5024.25 },
 			{ x: new Date(2024, 1, 20), y:    4977.75  },
 			{ x: new Date(2024, 1, 22), y:    5070.25 },
-			{ x: new Date(2024, 1, 23), y:  5166.40 }
+			{ x: new Date(2024, 1, 23), y:  5166.40 },
+			{ x: new Date(2024, 2, 4), y:  5200.90 }
 
 
     ]
@@ -277,7 +280,8 @@ window.onload = function () {
 			{ x: new Date(2024, 1, 15), y:   15.13 },
 			{ x: new Date(2024, 1, 20), y:   15.58 },
 			{ x: new Date(2024, 1, 22), y:   14.67},
-			{ x: new Date(2024, 1, 23), y: 14.73}
+			{ x: new Date(2024, 1, 23), y: 14.73},
+			{ x: new Date(2024, 2, 4), y:  14.00 }
 
 
 
