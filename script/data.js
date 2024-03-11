@@ -19,7 +19,7 @@ window.onload = function () {
 		titleFontColor: "#64a102",
     titleFontSize:30,
     labelFontSize:30,
-    interval:10000,
+    interval:20000,
 		includeZero: true,
 		suffix: ""
 	},
@@ -31,7 +31,7 @@ window.onload = function () {
 		titleFontColor: "#141414",
     titleFontSize:30,
     labelFontSize:30,
-    interval:100,
+    interval:200,
 		includeZero: false,
 		suffix: ""
 	}],
@@ -43,7 +43,7 @@ window.onload = function () {
 		titleFontColor: "#f50505",
     titleFontSize:30,
     labelFontSize:30,
-    interval:1,
+    interval:2,
 		includeZero: false,
 		prefix: "",
 		suffix: ""
@@ -124,7 +124,8 @@ window.onload = function () {
 			{ x: new Date(2024, 2, 4), y: 136678},
 			{ x: new Date(2024, 2, 5), y:  144246},
 			{ x: new Date(2024, 2, 6), y: 130482},
-			{ x: new Date(2024, 2, 8), y: 148438}
+			{ x: new Date(2024, 2, 8), y: 148438},
+			{ x: new Date(2024, 2, 11), y: 160713}
 
 
 
@@ -216,7 +217,8 @@ window.onload = function () {
 			{ x: new Date(2024, 2, 4), y:  5200.90 },
 			{ x: new Date(2024, 2, 5), y:   5155.00 },
 			{ x: new Date(2024, 2, 6), y:   5190.00 },
-			{ x: new Date(2024, 2, 8), y:  5250.50 }
+			{ x: new Date(2024, 2, 8), y:  5250.50 },
+			{ x: new Date(2024, 2, 11), y:  5178.70 }
 
 
     ]
@@ -291,7 +293,9 @@ window.onload = function () {
 			{ x: new Date(2024, 2, 4), y:  14.00 },
 			{ x: new Date(2024, 2, 5), y:  14.73 },
 			{ x: new Date(2024, 2, 6), y:  14.68},
-			{ x: new Date(2024, 2, 8), y:   14.37 }
+			{ x: new Date(2024, 2, 8), y:   14.37 },
+			{ x: new Date(2024, 2, 11), y:  15.18 }
+
 
 
 
