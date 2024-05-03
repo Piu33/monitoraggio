@@ -140,7 +140,8 @@ window.onload = function () {
 			{ x: new Date(2024, 3, 23), y: 175281},
 			{ x: new Date(2024, 3, 25), y: 181057},
 			{ x: new Date(2024, 3, 26), y:  191299},
-			{ x: new Date(2024, 4, 1), y:  182872}
+			{ x: new Date(2024, 4, 1), y:  182872},
+			{ x: new Date(2024, 4, 3), y:  173096}
 
 
 
@@ -248,7 +249,8 @@ window.onload = function () {
 			{ x: new Date(2024, 3, 23), y:  5104.50 },
 			{ x: new Date(2024, 3, 25), y:  5037.50},
 			{ x: new Date(2024, 3, 26), y:  5136.00 },
-			{ x: new Date(2024, 4, 1), y:  5057.50 }
+			{ x: new Date(2024, 4, 1), y:  5057.50 },
+			{ x: new Date(2024, 4, 3), y:   5134.25 }
 
 
 
@@ -340,7 +342,8 @@ window.onload = function () {
 			{ x: new Date(2024, 3, 23), y: 15.98},
 			{ x: new Date(2024, 3, 25), y: 16.63},
 			{ x: new Date(2024, 3, 26), y:  15.54 },
-			{ x: new Date(2024, 4, 1), y:   15.35 }
+			{ x: new Date(2024, 4, 1), y:   15.35 },
+			{ x: new Date(2024, 4, 3), y:    14.73 }
 
 			
 
