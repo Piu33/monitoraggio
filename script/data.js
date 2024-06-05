@@ -149,7 +149,7 @@ window.onload = function () {
 			{ x: new Date(2024, 4, 16), y:  161859 },
 			{ x: new Date(2024, 4, 31), y:  147780},
 			{ x: new Date(2024, 5, 3), y:   145596 },
-			{ x: new Date(2024, 5, 3), y:  146593}
+			{ x: new Date(2024, 5, 5), y:  146593}
 
 
 
@@ -266,7 +266,7 @@ window.onload = function () {
 			{ x: new Date(2024, 4, 16), y:  5347.50  },
 			{ x: new Date(2024, 4, 31), y:   5231.00 },
 			{ x: new Date(2024, 5, 3), y:   5281.25  },
-			{ x: new Date(2024, 5, 3), y:   5329.50 }
+			{ x: new Date(2024, 5, 5), y:   5329.50 }
 
 
 
