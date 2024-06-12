@@ -11,6 +11,11 @@ window.onload = function () {
     color: "black"
     
 	},
+	axisX:{
+		interval: 1,
+		intervalType: "month",
+		labelFontSize: 20
+	},
 	axisY:[{
 		title: "PIU33",
 		lineColor: "#64a102",
