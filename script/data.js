@@ -24,7 +24,7 @@ window.onload = function () {
 		titleFontColor: "#64a102",
     titleFontSize:30,
     labelFontSize:30,
-    interval:20000,
+    interval:40000,
 		includeZero: true,
 		suffix: ""
 	},
