@@ -12,7 +12,7 @@ window.onload = function () {
     
 	},
 	axisX:{
-		interval: 1,
+		interval: 2,
 		intervalType: "month",
 		labelFontSize: 20
 	},
@@ -293,7 +293,7 @@ var chart1 = new CanvasJS.Chart("chartContainer1", {
 			color: "black"
 	},
 	axisX:{
-			interval: 1,
+			interval: 2,
 			intervalType: "month",
 			labelFontSize: 20
 	},
@@ -601,7 +601,7 @@ var chart1 = new CanvasJS.Chart("chartContainer1", {
     axisYIndex: 1,
 		axisYType: "secondary",
 		showInLegend: true,
-    lineThickness: 5,
+    lineThickness: 2,
 		dataPoints: [
       { x: new Date(2023, 6, 31), y: 14.45 },
 			{ x: new Date(2023, 7, 2), y: 17.13  },
