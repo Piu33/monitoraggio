@@ -4,7 +4,7 @@
 window.onload = function () {
 	var chart = new CanvasJS.Chart("chartContainer", {
 		title:{
-			text: "Monitoraggio PIU33 vs S&P500 e correlazione VIX",
+			text: "Monitoraggio PIU33 e correlazione VIX",
 			margin: 50,
 			fontSize:50,
 			fontFamily: "tahoma",
