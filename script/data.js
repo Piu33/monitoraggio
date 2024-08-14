@@ -317,7 +317,7 @@ window.onload = function () {
 			axisYIndex: 2,
 			axisYType: "secondary",
 			showInLegend: true,
-			lineThickness: 1,
+			lineThickness: 2,
 			dataPoints: [
 				{ x: new Date(2023, 6, 31), y: 14.45 },
 				{ x: new Date(2023, 7, 2), y: 17.13  },
