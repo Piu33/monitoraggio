@@ -29,7 +29,7 @@ window.onload = function () {
 		suffix: ""
 	},
 	{
-		title: "S&P500",
+		title: "SP500",
 		lineColor: "#141414",
 		tickColor: "#141414",
 		labelFontColor: "#141414",
@@ -195,7 +195,7 @@ window.onload = function () {
 	},
 	{
 		type: "line",
-		name: "S&P500",
+		name: "SP500",
 		color: "#141414",
 		axisYIndex: 1,
 		showInLegend: true,
