@@ -735,6 +735,12 @@ var chart1 = new CanvasJS.Chart("chartContainer1", {
 			{ x: new Date(2024, 7, 15), y:  20.0531 },
 			{ x: new Date(2024, 7, 19), y:  20.9494 }
 
+
+			
+
+
+
+
     ]
 	}],
 });
