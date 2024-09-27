@@ -754,7 +754,7 @@ var chart1 = new CanvasJS.Chart("chartContainer1", {
 			{ x: new Date(2024, 8, 12), y: 21.3324},
 			{ x: new Date(2024, 8, 13), y: 22.6132},
 			{ x: new Date(2024, 8, 19), y: 23.8518},
-			{ x: new Date(2024, 8, 19), y: 24.68}
+			{ x: new Date(2024, 8, 27), y: 24.68}
 
 
 
