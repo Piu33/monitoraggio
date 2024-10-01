@@ -187,8 +187,8 @@ window.onload = function () {
 				{ x: new Date(2024, 8, 12), y: 380656},
 				{ x: new Date(2024, 8, 13), y: 388962},
 				{ x: new Date(2024, 8, 19), y: 398129},
-				{ x: new Date(2024, 8, 27), y: 391487}
-	
+				{ x: new Date(2024, 8, 27), y: 391487},
+				{ x: new Date(2024, 9, 1), y: 423915}
 	
 	
 	
@@ -439,7 +439,7 @@ window.onload = function () {
 				{ x: new Date(2024, 8, 12), y: 17.45},
 				{ x: new Date(2024, 8, 13), y: 16.40},
 				{ x: new Date(2024, 8, 19), y: 16.60},
-				{ x: new Date(2024, 8, 27), y: 18.45}
+				{ x: new Date(2024, 9, 1), y: 20.30}
 
 	
 			]
@@ -620,7 +620,7 @@ var chart1 = new CanvasJS.Chart("chartContainer1", {
 			{ x: new Date(2024, 8, 12), y: 38.06557},
 			{ x: new Date(2024, 8, 13), y: 38.89621},
 			{ x: new Date(2024, 8, 19), y: 39.81287},
-			{ x: new Date(2024, 8, 27), y: 39.14}
+			{ x: new Date(2024, 9, 1), y: 42.39},
 
 
 
@@ -754,8 +754,8 @@ var chart1 = new CanvasJS.Chart("chartContainer1", {
 			{ x: new Date(2024, 8, 12), y: 21.3324},
 			{ x: new Date(2024, 8, 13), y: 22.6132},
 			{ x: new Date(2024, 8, 19), y: 23.8518},
-			{ x: new Date(2024, 8, 27), y: 24.68}
-
+			{ x: new Date(2024, 8, 27), y: 24.68},
+			{ x: new Date(2024, 9, 1), y: 23.55}
 
 
 
