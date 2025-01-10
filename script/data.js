@@ -208,8 +208,8 @@ window.onload = function () {
 				{ x: new Date(2024, 11, 19),y: 486738},
 				{ x: new Date(2024, 11, 20),y: 498234},
 				{ x: new Date(2024, 12,  6),y: 477346},
-				{ x: new Date(2024, 12,  7),y: 506379}
-
+				{ x: new Date(2024, 12,  7),y: 506379},
+				{ x: new Date(2024, 12,  10),y: 514303}
 
 			]
 		},
@@ -476,8 +476,8 @@ window.onload = function () {
 				{ x: new Date(2024, 11, 19), y: 19.33},
 				{ x: new Date(2024, 11, 20), y: 21.87},
 				{ x: new Date(2024, 12,  6), y: 16.30},
-				{ x: new Date(2024, 12,  7), y: 18.01}
-
+				{ x: new Date(2024, 12,  7), y: 18.01},
+				{ x: new Date(2024, 12,  10), y: 18.80}
 
 			]
 		}]
@@ -507,7 +507,7 @@ var chart1 = new CanvasJS.Chart("chartContainer1", {
 			includeZero: true,
 			suffix: "",
 			minimum: -10, // Imposta il valore minimo
-			maximum: 50 // Imposta il valore massimo
+			maximum: 60 // Imposta il valore massimo
 	},
 	{
 			title: "SP500",
@@ -521,7 +521,7 @@ var chart1 = new CanvasJS.Chart("chartContainer1", {
 			includeZero: true,
 			suffix: "",
 			minimum: -10, // Imposta il valore minimo
-			maximum: 50 // Imposta il valore massimo
+			maximum: 60 // Imposta il valore massimo
 	}],
 	
 	toolTip: {
@@ -678,8 +678,8 @@ var chart1 = new CanvasJS.Chart("chartContainer1", {
 			{ x: new Date(2024, 11, 19), y: 48.67},
 			{ x: new Date(2024, 11, 20), y: 49.82},
 			{ x: new Date(2024, 12,  6), y: 47.73},
-			{ x: new Date(2024, 12,  7), y: 50.63}
-
+			{ x: new Date(2024, 12,  7), y: 50.63},
+			{ x: new Date(2024, 12,  10), y: 51.43}
 
 
     ]
@@ -831,8 +831,8 @@ var chart1 = new CanvasJS.Chart("chartContainer1", {
 			{ x: new Date(2024, 11, 19), y: 25.70},
 			{ x: new Date(2024, 11, 20), y: 24.86},
 			{ x: new Date(2024, 12,  6), y: 28.74},
-			{ x: new Date(2024, 12,  7), y: 26.82}
-
+			{ x: new Date(2024, 12,  7), y: 26.82},
+			{ x: new Date(2024, 12,  10), y: 25.78}
 
 
 
