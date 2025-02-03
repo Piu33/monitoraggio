@@ -524,7 +524,7 @@ var chart1 = new CanvasJS.Chart("chartContainer1", {
 			includeZero: true,
 			suffix: "",
 			minimum: -10, // Imposta il valore minimo
-			maximum: 60 // Imposta il valore massimo
+			maximum: 70 // Imposta il valore massimo
 	},
 	{
 			title: "SP500",
@@ -538,7 +538,7 @@ var chart1 = new CanvasJS.Chart("chartContainer1", {
 			includeZero: true,
 			suffix: "",
 			minimum: -10, // Imposta il valore minimo
-			maximum: 60 // Imposta il valore massimo
+			maximum: 70 // Imposta il valore massimo
 	}],
 	
 	toolTip: {
