@@ -3,21 +3,21 @@ import json
 from datetime import datetime
 
 # Leggi il file Excel
-df = pd.read_excel("files/data.xlsx", sheet_name="table")
+# df = pd.read_excel("files/data.xlsx", sheet_name="table")
 
-# Converte la colonna della data in formato datetime
-df["DATA"] = pd.to_datetime(df["DATA"], format="%d.%m.%Y")
+# # Converte la colonna della data in formato datetime
+# df["DATA"] = pd.to_datetime(df["DATA"], format="%d.%m.%Y")
 
-# Ordina i dati dalla data più recente alla più lontana
-df_sorted = df.sort_values(by="DATA", ascending=False)
+# # Ordina i dati dalla data più recente alla più lontana
+# df_sorted = df.sort_values(by="DATA", ascending=False)
 
-# Converte di nuovo la colonna 'DATA' in formato stringa (dd.mm.yyyy)
-df_sorted["DATA"] = df_sorted["DATA"].dt.strftime("%d.%m.%Y")
+# # Converte di nuovo la colonna 'DATA' in formato stringa (dd.mm.yyyy)
+# df_sorted["DATA"] = df_sorted["DATA"].dt.strftime("%d.%m.%Y")
 
-# Salva i dati ordinati in un file JSON
-df_sorted.to_json("files/table.json", orient="records", indent=4, force_ascii=False)
+# # Salva i dati ordinati in un file JSON
+# df_sorted.to_json("files/table.json", orient="records", indent=4, force_ascii=False)
 
-print("Dati tabella salvati in table.json")
+# print("Dati tabella salvati in table.json")
 
 
 
