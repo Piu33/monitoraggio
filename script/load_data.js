@@ -7,31 +7,31 @@ async function caricaDati() {
   const dati_sp = await response_sp.json();
 
   
-  let table = "<table><thead><tr>";
-  for (let key in dati[0]) {
-      table += `<th>${key}</th>`;
-  }
-  table += "</tr></thead>";
+  // let table = "<table><thead><tr>";
+  // for (let key in dati[0]) {
+  //     table += `<th>${key}</th>`;
+  // }
+  // table += "</tr></thead>";
   
-  dati.forEach(row => {
-      table += "<tr>";
-      for (let key in row) {
-        if (row[key] == "BOT" || row[key] == "SOLD"){
-          if (row[key] == "BOT"){
-            table += `<td style="color: blue">${row[key]}</td>`
-          }
-          if (row[key] == "SOLD"){
-            table += `<td style="color:red">${row[key]}</td>`
-          }
-        }
-        else {
-          table += `<td>${row[key]}</td>`;
-        }
-      }
-      table += "</tr>";
-  });
-  table += "</table>";
-  document.getElementById("tabella").innerHTML = table;
+  // dati.forEach(row => {
+  //     table += "<tr>";
+  //     for (let key in row) {
+  //       if (row[key] == "BOT" || row[key] == "SOLD"){
+  //         if (row[key] == "BOT"){
+  //           table += `<td style="color: blue">${row[key]}</td>`
+  //         }
+  //         if (row[key] == "SOLD"){
+  //           table += `<td style="color:red">${row[key]}</td>`
+  //         }
+  //       }
+  //       else {
+  //         table += `<td>${row[key]}</td>`;
+  //       }
+  //     }
+  //     table += "</tr>";
+  // });
+  // table += "</table>";
+  // document.getElementById("tabella").innerHTML = table;
 
   const vixPoints = dati_vix.map(d => ({
     x: new Date(d.DATA.split('.').reverse().join('-')), // Converte la data in formato Date
