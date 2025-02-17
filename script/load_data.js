@@ -1,6 +1,6 @@
 async function caricaDati() {
-  const response = await fetch('files/table.json');
-  const dati = await response.json();
+  //const response = await fetch('files/table.json');
+  //const dati = await response.json();
   const response_vix = await fetch('files/vix.json');
   const dati_vix = await response_vix.json();
   const response_sp = await fetch('files/sp.json');
