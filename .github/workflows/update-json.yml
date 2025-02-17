@@ -21,8 +21,8 @@ jobs:
       - name: 📦 Install Dependencies
         run: pip install pandas openpyxl
       
-      - name: 🗑️ Rimuovi table.json
-        run: rm -f files/table.json 
+      # - name: 🗑️ Rimuovi table.json
+      #   run: rm -f files/table.json 
 
       - name: 🗑️ Rimuovi vix.json
         run: rm -f files/vix.json 
