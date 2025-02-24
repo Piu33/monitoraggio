@@ -107,7 +107,7 @@ async function caricaDati() {
 			color: "#64a102",
 			showInLegend: true,
 			axisYIndex: 0,
-			lineThickness: 5,
+			lineThickness: 2,
 			dataPoints: piu33Points
 		},
 		{
@@ -178,7 +178,7 @@ async function caricaDati() {
       color: "#64a102",
       showInLegend: true,
       axisYIndex: 0,
-      lineThickness: 5,
+      lineThickness: 2,
       dataPoints: percent33Points 
       },
     {
@@ -187,7 +187,7 @@ async function caricaDati() {
       color: "#141414",
       axisYIndex:1,
       showInLegend: true,
-      lineThickness: 5,
+      lineThickness: 2,
       dataPoints: spPoints
     }],
   });
