@@ -51,7 +51,7 @@ async function caricaDati() {
     y: d.SP500 
   }));
 
-
+  var dataRiferimento = new Date(2025, 1, 7); // 15 Febbraio 2024
 
 
   var chart = new CanvasJS.Chart("chartContainer", {
@@ -63,11 +63,16 @@ async function caricaDati() {
 			color: "black"
 			
 		},
-		axisX:{
-			interval: 2,
-			intervalType: "month",
-			labelFontSize: 20
-		},
+		axisX: {
+      interval: 2,
+      intervalType: "month",
+      labelFontSize: 20,
+      stripLines: [{
+          value: dataRiferimento,
+          color: "lightblue",
+          thickness: 2
+      }]
+  },
 		axisY:[{
 			title: "PIU33",
 			lineColor: "#64a102",
@@ -134,7 +139,12 @@ async function caricaDati() {
     axisX:{
         interval: 2,
         intervalType: "month",
-        labelFontSize: 20
+        labelFontSize: 20,
+        stripLines: [{
+          value: dataRiferimento,
+          color: "lightblue",
+          thickness: 2
+      }]
     },
     axisY:[{
         title: "PIU33",
