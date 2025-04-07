@@ -113,7 +113,8 @@ async function caricaDati() {
 			showInLegend: true,
 			axisYIndex: 0,
 			lineThickness: 2,
-			dataPoints: piu33Points
+			dataPoints: piu33Points,
+      
 		},
 		{
 			type: "line",
@@ -158,7 +159,7 @@ async function caricaDati() {
         includeZero: true,
         suffix: "",
         minimum: -10, // Imposta il valore minimo
-        maximum: 70 // Imposta il valore massimo
+        maximum: 80 // Imposta il valore massimo
     },
     {
         title: "SP500",
@@ -172,7 +173,7 @@ async function caricaDati() {
         includeZero: true,
         suffix: "",
         minimum: -10, // Imposta il valore minimo
-        maximum: 70 // Imposta il valore massimo
+        maximum: 80 // Imposta il valore massimo
     }],
     
     toolTip: {
