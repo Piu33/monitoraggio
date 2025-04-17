@@ -120,7 +120,7 @@ async function caricaDati() {
 			type: "line",
 			name: "VIX",
 			color: "#f50505",
-			axisYIndex: 2,
+			axisYIndex: 1,
 			axisYType: "secondary",
 			showInLegend: true,
 			lineThickness: 1,
@@ -136,9 +136,24 @@ async function caricaDati() {
   extendedDate.setDate(extendedDate.getDate() + 10);
 
   // Setta l'asse X massimo
-  chart.options.axisX = chart.options.axisX || {};
   chart.options.axisX.maximum = extendedDate;
+
+  // Trova i massimi reali dei tuoi punti
+  var maxY1 = Math.max(...piu33Points.map(p => p.y));
+  var maxY2 = Math.max(...vixPoints.map(p => p.y));
+
+  // Calcola margine proporzionale
+  var marginY1 = maxY1 * 0.1;
+  var marginY2 = maxY2 * 0.1;
+
+  // Imposta i nuovi massimi asseY e asseY2
+  chart.options.axisY[0].includeZero = false;    
+  chart.options.axisY[0].maximum = maxY1 + marginY1;
+  chart.options.axisY2.includeZero = false;     
+  chart.options.axisY2.maximum = maxY2 + marginY2;
+
   chart.render();
+
 
   var chart1 = new CanvasJS.Chart("chartContainer1", {
     title:{
