@@ -123,10 +123,21 @@ async function caricaDati() {
 			axisYIndex: 2,
 			axisYType: "secondary",
 			showInLegend: true,
-			lineThickness: 2,
+			lineThickness: 1,
 			dataPoints: vixPoints
 		}]
 	});
+  // Trova l'ultimo valore X di piu33Points
+  var lastDate = piu33Points[0].x;
+  console.log(lastDate)
+
+  // Aggiunge 5 giorni
+  var extendedDate = new Date(lastDate);
+  extendedDate.setDate(extendedDate.getDate() + 10);
+
+  // Setta l'asse X massimo
+  chart.options.axisX = chart.options.axisX || {};
+  chart.options.axisX.maximum = extendedDate;
   chart.render();
 
   var chart1 = new CanvasJS.Chart("chartContainer1", {
