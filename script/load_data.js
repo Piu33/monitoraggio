@@ -56,7 +56,7 @@ async function caricaDati() {
 
   var chart = new CanvasJS.Chart("chartContainer", {
 		title:{
-			text: "Monitoraggio PIU33 e correlazione VIX",
+			text: "Monitoraggio PIU33 (%) e correlazione VIX dal 31.07.23",
 			margin: 50,
 			fontSize:50,
 			fontFamily: "tahoma",
@@ -81,7 +81,7 @@ async function caricaDati() {
 			titleFontColor: "#64a102",
 			titleFontSize:30,
 			labelFontSize:30,
-			interval:40000,
+			interval:2,
 			includeZero: true,
 			suffix: ""
 		},
@@ -157,7 +157,7 @@ async function caricaDati() {
 
   var chart1 = new CanvasJS.Chart("chartContainer1", {
     title:{
-        text: "Performance (%) PIU33 vs S&P500",
+        text: "Performance (%) PIU33 vs S&P500 dal 31.07.23",
         margin: 50,
         fontSize: 50,
         fontFamily: "tahoma",
