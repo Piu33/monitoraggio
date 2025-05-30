@@ -81,7 +81,7 @@ async function caricaDati() {
 			titleFontColor: "#64a102",
 			titleFontSize:30,
 			labelFontSize:30,
-			interval:2,
+			interval:5,
 			includeZero: true,
 			suffix: ""
 		},
