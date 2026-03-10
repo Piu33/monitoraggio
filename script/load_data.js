@@ -64,7 +64,7 @@ async function caricaDati() {
 			
 		},
 		axisX: {
-      interval: 2,
+      interval: 3,
       intervalType: "month",
       labelFontSize: 20,
       stripLines: [{
@@ -164,7 +164,7 @@ async function caricaDati() {
         color: "black"
     },
     axisX:{
-        interval: 2,
+        interval: 3,
         intervalType: "month",
         labelFontSize: 20,
         stripLines: [{
